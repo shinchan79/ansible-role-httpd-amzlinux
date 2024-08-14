@@ -1,0 +1,13 @@
+---
+- name: Install Apache (httpd)
+  yum:
+    name: httpd
+    state: present
+  become: yes
+
+- name: Ensure Apache is running
+  systemd:
+    name: httpd
+    state: started
+    enabled: yes
+  become: yes

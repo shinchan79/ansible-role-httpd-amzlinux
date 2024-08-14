@@ -1,0 +1,18 @@
+---
+galaxy_info:
+  author: testusage
+  description: Apache installation and configuration for Amazon Linux 2
+  license: license (MIT, BSD)
+  min_ansible_version: 2.9
+  platforms:
+    - name: Amazon
+      versions:
+        - 2
+  galaxy_tags:
+    - web
+    - apache
+    - httpd
+    - amazon
+    - aws
+
+dependencies: []

@@ -1,0 +1,3 @@
+---
+# defaults/main.yml
+apache2_package: apache2
